@@ -15,11 +15,18 @@ ul {
 .nav-bar {
   /* height: 100px; */
   width: 100%;
-
   background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-.navigation {
+
+.continer-width {
   width: 87%;
+  margin: auto;
+}
+
+.navigation {
   background-color: #eee;
   height: 50px;
   margin: auto;
@@ -124,7 +131,6 @@ ul {
   background-color: transparent;
 }
 .hero-section {
-  width: 87%;
   height: 630px;
   /* background-color: red; */
   margin: auto;
@@ -133,10 +139,61 @@ ul {
   width: 100%;
   height: 100%;
   /* background-color: blue; */
+  position: relative;
+}
+.btn-container {
+  position: absolute;
+  bottom: 13%;
+  left: 38%;
+  display: flex;
+  gap: 10px;
+}
+.btn-container button {
+  padding: 15px 20px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
 }
 
-.position {
-  width: 100%;
+.btn-container button:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  cursor: pointer;
+}
 
-  height: 200px;
+/* brand */
+.brand {
+  height: 170px;
+
+  display: flex;
+}
+.brand-img {
+  width: 14.28%;
+  height: 100%;
+}
+.brand-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* life-style */
+.life-style {
+  height: 600px;
+  background-color: lightblue;
+  display: flex;
+  gap: 1%;
+}
+.life-style div {
+  width: 32.66%;
+  height: 100%;
+  /* background-color: blue; */
+}
+.life-style div img {
+  width: 100%;
+  height: 100%;
 }
