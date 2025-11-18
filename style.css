@@ -21,7 +21,7 @@ ul {
   z-index: 100;
 }
 
-.continer-width {
+.container-width {
   width: 87%;
   margin: auto;
 }
@@ -196,4 +196,100 @@ ul {
 .life-style div img {
   width: 100%;
   height: 100%;
+}
+
+.life-style-bottom {
+  height: 670px;
+  background-color: red;
+  display: flex;
+  gap: 2%;
+  margin-top: 20px;
+}
+.item-style-bottom {
+  width: 49%;
+  height: 100%;
+  background-color: blue;
+}
+.item-style-bottom img {
+  width: 100%;
+  height: 100%;
+}
+
+/* main section */
+.main-section {
+  /* height: 500px; */
+  /* background-color: blue; */
+  margin-top: 40px;
+}
+.title-head-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-cart {
+  height: 500px;
+
+  margin-top: 20px;
+  display: flex;
+  gap: 1%;
+}
+.cart {
+  height: 100%;
+  width: 24.25%;
+  background-color: #eee;
+}
+.img-cart {
+  width: 100%;
+  height: 75%;
+}
+.img-cart img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cart-title {
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cart-title-left {
+  display: block;
+}
+.cart-title-left div {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+.cart-title-left div span:first-child {
+  color: red;
+  font-weight: bold;
+}
+.cart-title-left div span:last-child {
+  text-decoration: line-through;
+  color: rgb(76, 76, 76);
+}
+/* .cart-title-left div span:nth-child(2) {
+  color: chocolate;
+} */
+
+.color {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.color li {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 5px;
+}
+
+.color li:first-child {
+  background-color: red;
+}
+.color li:last-child {
+  background-color: black;
 }
